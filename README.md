@@ -38,4 +38,5 @@ Object.entries(menuItem).forEach(([key, value]) => {
   if (key != 'numIngredients')
     console.log(`${key}: ${value}`)
   });
-console.log(`Number of ingredients = ${menuItem.numIngredients()}`);```
+console.log(`Number of ingredients = ${menuItem.numIngredients()}`);
+```
