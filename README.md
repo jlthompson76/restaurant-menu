@@ -4,7 +4,7 @@ In this exercise, your best friend is opening a restaurant and needs your help w
 
 Copy and paste the below JS and follow the prompts (these appear as "text messages" from your friend). Create an HTML file and link this file using `<script src="">` tags.
 
-let menuItem = {
+```let menuItem = {
   name: 'Kale Caesar Salad',
   nickName: 'All Hail Kale',
   referenceID: 'SLD001',
@@ -38,4 +38,4 @@ Object.entries(menuItem).forEach(([key, value]) => {
   if (key != 'numIngredients')
     console.log(`${key}: ${value}`)
   });
-console.log(`Number of ingredients = ${menuItem.numIngredients()}`);
+console.log(`Number of ingredients = ${menuItem.numIngredients()}`);```
